@@ -46,6 +46,14 @@ To use the directive, include the angular background javascript file in your web
 
 ##Install
 
+###Bower installation
+
+```
+$ bower install angularjs-background --save
+```
+
+_then load the js files in your html_
+
 ###Add module dependency
 
 Add the 720kb.tooltips module dependency
