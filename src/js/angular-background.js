@@ -55,7 +55,7 @@
         attrs.$observe(value, function(val){
 
           if (val) {
-            console.log(val);
+
             $scope.launchDynamicBg();
           }
         });
