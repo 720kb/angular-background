@@ -4,13 +4,14 @@
   <link rel="stylesheet" type="text/css" href="http://720kb.github.io/csshelper/assets/ext/src/helper.css">
   <title>Angularjs Background</title>
 </head>
-<body>
-  <div dynamic-background background-image="http://i.imgur.com/Fi0EUCm.jpg" background-repeat="no-repeat" background-size="100%">
+<body ng-controller="Home">
+  <div dynamic-background background-image="{{bgModel || 'http://i.imgur.com/Fi0EUCm.jpg'}}" background-repeat="no-repeat" background-size="100%">
    <div class="separator50"></div>
    <div class="separator50"></div>
    <div class="separator50"></div>
    <div class="separator50"></div>
    <div class="separator50"></div>
+   <input type="text" placeholder="paste an image url here ...." name="img" ng-model="bgModel"/>
    <div class="separator50"></div>
    <div class="separator50"></div>
    <div class="separator50"></div>

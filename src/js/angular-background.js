@@ -25,16 +25,41 @@
        });
       };
 
-      if (attrs.backgroundOnEvent) {
+      $scope.launchDynamicBg = function manageLaunchDynamicBg () {
 
-        angular.element(element[0]).bind(attrs.backgroundOnEvent, function () {
+        if (attrs.backgroundOnEvent) {
+
+          angular.element(element[0]).bind(attrs.backgroundOnEvent, function () {
+
+            $scope.setBg();
+          });
+        } else {
 
           $scope.setBg();
-        });
-      } else {
-
-        $scope.setBg();
+        }
       }
+
+      angular.forEach([
+        'backgroundImage',
+        'backgroundColor',
+        'backgroundSize',
+        'backgroundPosition',
+        'backgroundClip',
+        'backgroundAttachment',
+        'backgroundOnEvent',
+        "backgroundRepeat",
+        'backgroundOrigin',
+        'background'
+        ], function (value, key) {
+
+        attrs.$observe(value, function(val){
+
+          if (val) {
+            console.log(val);
+            $scope.launchDynamicBg();
+          }
+        });
+      });
     }
   };
   }]);
