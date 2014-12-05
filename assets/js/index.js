@@ -7,7 +7,9 @@
     'ngRoute',
     '720kb.background',
     'hljs'
-  ]).config(['hljsServiceProvider', function configurationFunction(hljsServiceProvider) {
+  ])
+  .controller('Home', [function () {}])
+  .config(['hljsServiceProvider', function configurationFunction(hljsServiceProvider) {
 
     hljsServiceProvider.setOptions({
       // replace tab with 4 spaces

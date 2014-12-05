@@ -3,6 +3,10 @@
   src: url('../fonts/avenir-medium.eot');
   src: url('../fonts/avenir-medium.eot') format('embedded-opentype'), url('../fonts/avenir-medium.woff2') format('woff2'), url('../fonts/avenir-medium.woff') format('woff'), url('../fonts/avenir-medium.ttf') format('truetype'), url('../fonts/avenir-medium.svg#AvenirMedium') format('svg');
 }
+input{
+  min-height: 30px;
+  padding:0 2%;
+}
 body {
   font-family:'Avenir', Arial;
   background: #eff4f6;
