@@ -13,8 +13,8 @@
       $scope.setBg = function manageSetBg() {
 
        angular.element(element[0]).css({
-        'background-color':attrs.backgroundColor,
-        'background-image':'url(' + attrs.backgroundImage + ')',
+        'background-color': attrs.backgroundColor,
+        'background-image': 'url(' + attrs.backgroundImage + ')',
         'background-repeat': attrs.backgroundRepeat,
         'background-position': attrs.backgroundPosition,
         'background-size': attrs.backgroundSize,
@@ -37,7 +37,7 @@
 
           $scope.setBg();
         }
-      }
+      };
 
       angular.forEach([
         'backgroundImage',
@@ -47,10 +47,10 @@
         'backgroundClip',
         'backgroundAttachment',
         'backgroundOnEvent',
-        "backgroundRepeat",
+        'backgroundRepeat',
         'backgroundOrigin',
         'background'
-        ], function (value, key) {
+        ], function (value) {
 
         attrs.$observe(value, function(val){
 
