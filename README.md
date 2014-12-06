@@ -93,6 +93,16 @@ This is the same as writing Css background rules, so all the background rules ar
     </div>
 ```
 
+####Events
+You can specify the background to change on a specific event or a set of events using the background-on-event="" data attribute
+  ```html
+  <div dynamic-background background-on-event="mouseover keyup" background-image=" url OR encoded image source like base64; ">
+   <p>
+    My dynamic background div that will change background on mouseover or keyup
+  </p>
+</div>
+```
+
 ## Example
 
 ###[Live demo](https://720kb.github.io/angular-background)
