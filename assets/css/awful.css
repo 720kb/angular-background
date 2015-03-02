@@ -1,3 +1,9 @@
+.wrapper{
+  height:100%;
+  max-height:100vh;
+  overflow: hidden;
+  overflow-y:scroll;
+}
 @font-face {
   font-family:'Avenir';
   src: url('../fonts/avenir-medium.eot');
