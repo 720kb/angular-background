@@ -54,6 +54,14 @@ $ bower install angularjs-background --save
 
 _then load the js files in your html_
 
+###Npm installation
+
+```
+$ npm install angularjs-background --save
+```
+
+_then load the js files in your html_
+
 ###Add module dependency
 
 Add the 720kb.tooltips module dependency
@@ -78,14 +86,14 @@ Use the dynamic-background attribute to init the element
 This is the same as writing Css background rules, so all the background rules are now attributes ( you can check all the supported attributes [here](https://developer.mozilla.org/en-US/docs/Web/CSS/background))
 
 ```html
-	<div 
-	dynamic-background="" 
+	<div
+	dynamic-background=""
 	background-image=" url || encoded image source like base64; "
-	background-size="100%" 
-	background-repeat="no-repeat" 
-	background-position="top center" 
-	background-attachment="etc..." 
-	background-clip="etc.." 
+	background-size="100%"
+	background-repeat="no-repeat"
+	background-position="top center"
+	background-attachment="etc..."
+	background-clip="etc.."
 	background-origin="etc...">
       <p>
         My dynamic background div

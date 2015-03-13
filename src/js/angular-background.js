@@ -5,10 +5,10 @@
   'use strict';
 
   angular.module('720kb.background', [])
-  .directive('dynamicBackground', [function () {
+  .directive('dynamicBackground', [function dynamicBackgroundDirective() {
   return {
     'restrict': 'A',
-    'link': function ($scope, element, attrs) {
+    'link': function linkingFunction($scope, element, attrs) {
 
       $scope.setBg = function manageSetBg() {
 
@@ -29,7 +29,7 @@
 
         if (attrs.backgroundOnEvent) {
 
-          angular.element(element[0]).bind(attrs.backgroundOnEvent, function () {
+          angular.element(element[0]).bind(attrs.backgroundOnEvent, function onBackgroundEvent() {
 
             $scope.setBg();
           });
@@ -50,9 +50,9 @@
         'backgroundRepeat',
         'backgroundOrigin',
         'background'
-        ], function (value) {
+        ], function iterator(value) {
 
-        attrs.$observe(value, function(val){
+        attrs.$observe(value, function onChange(val){
 
           if (val) {
 
