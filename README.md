@@ -49,7 +49,7 @@ To use the directive, include the angular background javascript file in your web
 ###Bower installation
 
 ```
-$ bower install angularjs-background --save
+$ bower install angular-background --save
 ```
 
 _then load the js files in your html_
@@ -57,7 +57,7 @@ _then load the js files in your html_
 ###Npm installation
 
 ```
-$ npm install angularjs-background --save
+$ npm install angular-background --save
 ```
 
 _then load the js files in your html_
