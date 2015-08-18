@@ -7,12 +7,11 @@ Angular Background is an angular.js directive to dynamically switch the backgrou
 
 The angular background is developed by [720kb](http://720kb.net).
 
-##Requirements
-
+###Requirements
 
 AngularJS v1.2+
 
-##Screen
+###Screen
 ![Angular tooltips](http://i.imgur.com/5zKnVTB.png)
 
 ###Browser support
@@ -23,7 +22,7 @@ AngularJS v1.2+
  ✔ | ✔ | IE9 + | ✔ | ✔ |
 
 
-## Load
+###Load
 
 To use the directive, include the angular background javascript file in your web page:
 
@@ -38,9 +37,9 @@ To use the directive, include the angular background javascript file in your web
 </html>
 ```
 
-##Install
+###Install
 
-###Bower installation
+####Bower
 
 ```
 $ bower install angular-background --save
@@ -48,7 +47,7 @@ $ bower install angular-background --save
 
 _then load the js files in your html_
 
-###Npm installation
+####Npm
 
 ```
 $ npm install angular-background --save
@@ -66,15 +65,14 @@ angular.module('app', [
  ]);
 ```
 
-
 Use the dynamic-background attribute to init the element
 
 ```html
 
-<div dynamic-background >just initialized</div>
+<div dynamic-background>just initialized</div>
 
 ```
-##Options
+###Options
 
 ####Attributes
 This is the same as writing Css background rules, so all the background rules are now attributes ( you can check all the supported attributes [here](https://developer.mozilla.org/en-US/docs/Web/CSS/background))
@@ -105,16 +103,16 @@ You can specify the background to change on a specific event or a set of events 
 </div>
 ```
 
-## Example
+###Example
 
-###[Live demo](https://720kb.github.io/angular-background)
+####[Live demo](https://720kb.github.io/angular-background)
 
-##Contributing
+###Contributing
 
 We will be much grateful if you help us making this project to grow up.
 Feel free to contribute by forking, opening issues, pull requests etc.
 
-## License
+###License
 
 The MIT License (MIT)
 
