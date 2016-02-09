@@ -11,9 +11,6 @@ The angular background is developed by [720kb](http://720kb.net).
 
 AngularJS v1.2+
 
-###Screen
-![Angular tooltips](http://i.imgur.com/5zKnVTB.png)
-
 ###Browser support
 
 
