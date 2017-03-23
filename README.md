@@ -7,11 +7,11 @@ Angular Background is an angular.js directive to dynamically switch the backgrou
 
 The angular background is developed by [720kb](http://720kb.net).
 
-###Requirements
+### Requirements
 
 AngularJS v1.2+
 
-###Browser support
+### Browser support
 
 
 Chrome | Firefox | IE | Opera | Safari
@@ -19,7 +19,7 @@ Chrome | Firefox | IE | Opera | Safari
  ✔ | ✔ | IE9 + | ✔ | ✔ |
 
 
-###Load
+### Load
 
 To use the directive, include the angular background javascript file in your web page:
 
@@ -34,9 +34,9 @@ To use the directive, include the angular background javascript file in your web
 </html>
 ```
 
-###Install
+### Install
 
-####Bower
+#### Bower
 
 ```
 $ bower install angular-background --save
@@ -44,7 +44,7 @@ $ bower install angular-background --save
 
 _then load the js files in your html_
 
-####Npm
+#### npm
 
 ```
 $ npm install angular-background --save
@@ -52,7 +52,7 @@ $ npm install angular-background --save
 
 _then load the js files in your html_
 
-###Add module dependency
+### Add module dependency
 
 Add the 720kb.tooltips module dependency
 
@@ -69,9 +69,9 @@ Use the dynamic-background attribute to init the element
 <div dynamic-background>just initialized</div>
 
 ```
-###Options
+### Options
 
-####Attributes
+#### Attributes
 This is the same as writing Css background rules, so all the background rules are now attributes ( you can check all the supported attributes [here](https://developer.mozilla.org/en-US/docs/Web/CSS/background))
 
 ```html
@@ -90,7 +90,7 @@ This is the same as writing Css background rules, so all the background rules ar
     </div>
 ```
 
-####Events
+#### Events
 You can specify the background to change on a specific event or a set of events using the background-on-event="" data attribute
   ```html
   <div dynamic-background background-on-event="mouseover keyup" background-image=" url OR encoded image source like base64; ">
@@ -100,16 +100,16 @@ You can specify the background to change on a specific event or a set of events 
 </div>
 ```
 
-###Example
+### Example
 
-####[Live demo](https://720kb.github.io/angular-background)
+#### [Live demo](https://720kb.github.io/angular-background)
 
-###Contributing
+### Contributing
 
 We will be much grateful if you help us making this project to grow up.
 Feel free to contribute by forking, opening issues, pull requests etc.
 
-###License
+### License
 
 The MIT License (MIT)
 
